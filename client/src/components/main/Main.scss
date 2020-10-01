@@ -1,0 +1,28 @@
+.main {
+
+  .gallery {
+    background-color: var(--color-pimary-light);
+    display: flex;
+    flex: 1;
+    height: 25rem;
+
+    &-item {
+      h1 {
+        bottom: 25rem;
+        color: #fff;
+        position: relative;
+        // text-align: center;
+      }
+    }
+  
+    &-photo {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+}
+

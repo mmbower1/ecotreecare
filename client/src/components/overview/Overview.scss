@@ -1,0 +1,23 @@
+.overview {
+  background-color: var(--color-pimary-light);
+  color: #fff;
+  height: 24rem;
+  
+  &-reading {
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-between;
+    position: relative;
+    top: 10rem;
+
+    &-1 {
+      font-size: 2.1rem;
+      text-align: center;
+    }
+  }
+
+  &-explanation {
+    font-size: 1rem;
+    color: black;
+  }
+}

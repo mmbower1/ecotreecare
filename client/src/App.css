@@ -1,0 +1,7 @@
+.App {
+  background-color: #f4f2f2;
+  box-shadow: var(--shadow-dark);
+  margin: 5rem auto;
+  max-width: 180rem;
+  min-height: 55rem;
+}
