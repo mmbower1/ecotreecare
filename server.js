@@ -52,10 +52,11 @@ app.use(function(req, res, next) {
 });
 
 // access routes
-// app.use('/login', require('./routes/login'));
-// app.use('/register', require('./routes/register'));
-// app.use('/profile', require('./routes/profile'));
-// app.use('/stripe', require('./routes/stripe'));
+app.use('/', require('./routes/homepage'));
+app.use('/about-us', require('./routes/aboutUs'));
+app.use('/services', require('./routes/services'));
+app.use('/gallery', require('./routes/gallery'));
+app.use('/review', require('./routes/review'));
 
 // heroku 
 if (process.env.NODE_ENV === 'production') {

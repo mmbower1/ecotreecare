@@ -1,0 +1,12 @@
+.services {
+  display: flex;
+  
+  .sidebar {
+    background-color: var(--color-grey-dark-1);
+    display: flex;
+    flex: 0 0 18%;
+    flex-direction: column;
+    height: 145rem;
+    justify-content: space-between;
+  }
+}
