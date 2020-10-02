@@ -1,17 +1,21 @@
 .explanation {
 
   h1 {
+    color: var(--color-grey-dark-1);
     font-size: 4rem;
-    margin-left: .8rem;
+    margin-left: 2rem;
   }
 
   p { 
+    color: var(--color-grey-dark-1);
     font-size: 2rem;
-    margin-left: .8rem;
+    margin-left: 2rem;
+    width: 90%;
   }
 
   ul {
+    color: var(--color-grey-dark-1);
     font-size: 2rem;
-    margin-left: 3.5rem;
+    margin-left: 4.5rem;
   }
 }

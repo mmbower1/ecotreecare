@@ -22,7 +22,7 @@ const Explanation = () => {
         <li>Management plans</li>
         <li>Water conservation</li>
         <li>Irrigation retrofits</li>
-        <li>awn conversions</li>
+        <li>Lawn conversions</li>
         <li>Sheet mulching</li>
         <li>Orchard pruning</li>
         <li>Worker training</li>

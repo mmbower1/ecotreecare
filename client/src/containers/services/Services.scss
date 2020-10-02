@@ -9,4 +9,22 @@
     height: 145rem;
     justify-content: space-between;
   }
+
+  .rows {
+    margin-left: 1.5rem;
+
+    &-section {
+      display: flex;
+
+      .column {
+        h2 { font-size: 3rem; }
+        p { font-size: 1.5rem; }
+
+        &-img {
+          height: 40rem;
+          width: 50rem;
+        }
+      }
+    }
+  }
 }

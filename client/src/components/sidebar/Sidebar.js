@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 // components
 import './Sidebar.scss';
 // style
@@ -12,40 +13,42 @@ const Sidebar = () => {
         <ul className='side-nav'>
           <li className='side-nav-item side-nav-item--active'>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-home fa-3x icon"></i>
-            <a href='#' className='side-nav-link'>
+            <Link to='/' className='side-nav-link'>
               home
-            </a>
-          </li>
-          <li className='side-nav-item'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-address-card fa-3x icon"></i>
-            <a href='#' className='side-nav-link'>
-              about us
-            </a>
+            </Link>
           </li>
           <li className='side-nav-item'>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-tree fa-3x icon"></i>
-            <a href='#' className='side-nav-link'>
+            <Link to='/services' className='side-nav-link'>
               services
-            </a>
+            </Link>
           </li>
           <li className='side-nav-item'>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-images fa-3x icon"></i>
-            <a href='#' className='side-nav-link'>
+            <Link to='/gallery' className='side-nav-link'>
               gallery
-            </a>
+            </Link>
+          </li>
+          <li className='side-nav-item'>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-address-card fa-3x icon"></i>
+            <Link to='/about-us' className='side-nav-link'>
+              about us
+            </Link>
           </li>
           <li className='side-nav-item'>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-thumbs-up fa-3x icon"></i>
-            <a href='#' className='side-nav-link'>
-              leave a review
-            </a>
+            <Link to='/review' className='side-nav-link'>
+              leave review
+            </Link>
           </li>
         </ul>
         <img src={certified} alt="certified.png" id="certified" />
         <img src={accredited} alt="accredited.png" id="accredited" />
         <p>BBB Rating A+ as of 9/30/2020. <a href="#">Click for profile</a></p>
         <span className="legal">
-          &copy; 2020 American Arbor Tree Care Professionals - All Rights Reserved
+          Contractors License #672627<br /><br />
+          Business Hours: 24/7
+          by appointment. 
         </span>
       </nav>
     </div>
