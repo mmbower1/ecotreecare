@@ -8,6 +8,7 @@ const Review = () => {
   return (
     <div className="review">
       <Sidebar />
+      <h1>Frequently asked questions</h1>
     </div>
   )
 }
