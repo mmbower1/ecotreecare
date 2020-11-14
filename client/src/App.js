@@ -14,7 +14,7 @@ import Spinner from './components/spinner/Spinner';
 // import Review from './containers/review/Review';
 
 // styles
-import './App.css';
+import './App.scss';
 import './scss/App.scss';
 // redux
 import { store, 

@@ -1,3 +1,5 @@
+@import "../../scss/base/base";
+
 .header {
   align-items: center;
   background-color: #fff;
@@ -6,6 +8,18 @@
   font-size: 1.5rem;
   height: 13rem;
   justify-content: space-between;
+
+  .credit-cards {
+    #american-express, #discover, #mastercard, #visa {
+      height: 45px;
+    }
+    @media only screen and (max-width: $bp-large) {
+      // display: none;
+      #american-express, #discover, #mastercard, #visa {
+        height: 30px;
+      }
+    }
+  }
 
   .logo {
     height: 3.25rem;
@@ -17,6 +31,10 @@
     display: flex;
     flex: 0 0 40%;
     justify-content: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      flex: 0 0 45%;
+    }
 
     &-button {
       background-color: var(--color-grey-light-2);
@@ -70,6 +88,12 @@
       font-size: 2rem;
       padding: 0 2rem;
       height: 100%;
+      text-align: center;
+
+      @media only screen and (max-width: $bp-small) {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+      }
     }
 
     :hover { background-color: var(--color-grey-light-2) }

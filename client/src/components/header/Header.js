@@ -22,10 +22,10 @@ const Header = () => {
         </button>
       </form>
       <div className="credit-cards">
-        <img src={americanExpress} alt="american-express.png" />
-        <img src={discover} alt="discover.png" />
-        <img src={mastercard} alt="mastercard.png" />
-        <img src={visa} alt="visa.png" />
+        <img src={americanExpress} alt="american-express.png" id="american-express" />
+        <img src={discover} alt="discover.png" id="discover" />
+        <img src={mastercard} alt="mastercard.png" id="mastercard" />
+        <img src={visa} alt="visa.png" id="visa" />
       </div>
       <div className="subscribe">
         <p>Questions? <br />Contact us today!<br /> (530) 206-7681 </p>

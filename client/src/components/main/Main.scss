@@ -1,17 +1,29 @@
+@import "../../scss/base/base";
+
 .main {
 
   .gallery {
     background-color: var(--color-pimary-light);
     display: flex;
-    flex: 1;
+    flex: 3;
     height: 25rem;
 
     &-item {
       h1 {
-        bottom: 25rem;
         color: #fff;
         position: relative;
         // text-align: center;
+      }
+
+      .overview-reading-1 {
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+
+        @media only screen and (max-width: $bp-small) {
+          font-size: 1.5rem;
+          margin-top: 1.5rem;
+        }
       }
     }
   
@@ -23,6 +35,15 @@
 
   .heading {
     font-size: 3rem;
+    margin-top: -5rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 2rem;
+    }
+  }
+
+  #heading-3 {
+    color: black;
   }
 }
 

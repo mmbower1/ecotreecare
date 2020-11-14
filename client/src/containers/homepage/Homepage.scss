@@ -1,5 +1,11 @@
+@import "../../scss/base/base";
+
 .homepage {
   display: flex;
+
+  @media only screen and (max-width: $bp-large) {
+    flex-direction: column;
+  }
   
   .sidebar {
     background-color: var(--color-grey-dark-1);
@@ -8,5 +14,13 @@
     flex-direction: column;
     height: 145rem;
     justify-content: space-between;
+
+    @media only screen and (max-width: $bp-large) {
+      background-color: var(--color-grey-dark-1);
+      // flex: 0 0 18%;
+      flex-direction: column;
+      height: 11rem;
+      justify-content: space-between;
+    }
   }
 }

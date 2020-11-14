@@ -1,7 +1,13 @@
+@import "../../scss/base/base";
+
 .overview {
   background-color: var(--color-pimary-light);
   color: #fff;
   height: 17rem;
+
+  @media only screen and (max-width: $bp-small) {
+    height: 5rem;
+  }
   
   &-reading {
     display: flex;
@@ -9,11 +15,6 @@
     justify-content: space-between;
     position: relative;
     top: 7rem;
-
-    &-1 {
-      font-size: 2.1rem;
-      text-align: center;
-    }
   }
 
   &-explanation {

@@ -42,14 +42,18 @@ const Sidebar = () => {
             </Link>
           </li>
         </ul>
-        <img src={certified} alt="certified.png" id="certified" />
-        <img src={accredited} alt="accredited.png" id="accredited" />
-        <p>BBB Rating A+ as of 9/30/2020. <a href="#">Click for profile</a></p>
-        <span className="legal">
-          Contractors License #672627<br /><br />
-          Business Hours: 24/7
-          by appointment. 
-        </span>
+        <div className="sidebar-images">
+          <img src={certified} alt="certified.png" id="certified" />
+          <img src={accredited} alt="accredited.png" id="accredited" />
+        </div>
+        <div className="sidebar-content">
+          <p>BBB Rating A+ as of 9/30/2020. <a href="#">Click for profile</a></p>
+          <span className="legal">
+            Contractors License #672627<br /><br />
+            Business Hours: 24/7
+            by appointment. 
+          </span>
+        </div>
       </nav>
     </div>
   )
