@@ -1,4 +1,4 @@
-
+@import "../../scss/base/base";
 
 .footer {
   background-color: rgb(128, 59, 34);
@@ -13,7 +13,18 @@
     text-align: center;
   }
 
+  .social-media {
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 12px;
+    }
+  }
+
   &-writing {
     text-align: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 12px;
+    }
+
   }
 }

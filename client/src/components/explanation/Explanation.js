@@ -10,7 +10,7 @@ const Explanation = () => {
       <div className="explanation">
       
         <h1>
-          <i className="fas fa-angle-double-right" style={{color: 'green'}}></i>&nbsp;
+          {/* <i className="fas fa-angle-double-right" style={{color: 'green'}}></i>&nbsp; */}
             Welcome to American Arbor Tree Care Professionals
           {/* &nbsp;<i className="fas fa-angle-double-left" style={{color: 'green'}}></i> */}
         </h1>
