@@ -15,7 +15,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="gallery">
+    <div className="gallery-page">
       <Sidebar />
       <h1>American Arbor Tree Care Professionals Gallery</h1>
       {pictures.map(picture =>

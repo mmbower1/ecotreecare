@@ -9,6 +9,10 @@ const Review = () => {
     <div className="review">
       <Sidebar />
       <h1>Frequently asked questions</h1>
+      <form>
+        <input />
+      </form>
+      <br />
     </div>
   )
 }
