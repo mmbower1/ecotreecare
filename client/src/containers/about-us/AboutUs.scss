@@ -3,6 +3,26 @@
 .about-us {
   display: flex;
 
+  h1 { 
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: underline;
+  }
+
+  p {
+    margin-left: 10px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .rope-climb-img {
+    width: 100%;
+    background-size: 50%;
+    margin: 0 10px;
+  }
+
   @media only screen and (max-width: $bp-large) {
     flex-direction: column;
   }
@@ -26,5 +46,6 @@
 
   &-reading {
     font-size: 2rem;
+    padding: 2rem;
   }
 }
