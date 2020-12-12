@@ -27,7 +27,7 @@ const Main = () => {
           <h1 className="heading">Landscaping</h1>
           <div className="overview-reading-1">
             <p>Many properties, including HOA’s, golf courses and commercial complexes, can benefit greatly utilizing a management plan... (learn more)</p>
-        </div>
+          </div>
         </figure>
         <figure className="gallery-item">
           <img src={photo3} alt="photo-3" className="gallery-photo" />

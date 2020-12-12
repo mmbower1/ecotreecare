@@ -10,7 +10,7 @@ const Review = () => {
       <Sidebar />
       <div className="container">
         <form id="form" className="form">
-          <h1>Thank you for leaving a review its helps us tremendously!</h1>
+          <h1 className='review-title'>Thank you for leaving a review its helps us tremendously!</h1>
           <br />
           <div className="form-control">
             <label for="name">Name</label>

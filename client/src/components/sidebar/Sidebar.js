@@ -12,31 +12,31 @@ const Sidebar = () => {
       <nav className='sidebar'>
         <ul className='side-nav'>
           <li className='side-nav-item side-nav-item--active'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-home fa-3x icon"></i>
+          <i className="fas fa-home fa-3x icon"></i>
             <Link to='/' className='side-nav-link'>
               home
             </Link>
           </li>
           <li className='side-nav-item'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-tree fa-3x icon"></i>
+          <i className="fas fa-tree fa-3x icon"></i>
             <Link to='/services' className='side-nav-link'>
               services
             </Link>
           </li>
           <li className='side-nav-item'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-images fa-3x icon"></i>
+          <i className="fas fa-images fa-3x icon"></i>
             <Link to='/gallery' className='side-nav-link'>
               gallery
             </Link>
           </li>
           <li className='side-nav-item'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-address-card fa-3x icon"></i>
+          <i className="fas fa-address-card fa-3x icon"></i>
             <Link to='/about-us' className='side-nav-link'>
-              about us
+              about
             </Link>
           </li>
           <li className='side-nav-item'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-thumbs-up fa-3x icon"></i>
+          <i className="fas fa-thumbs-up fa-3x icon"></i>
             <Link to='/review' className='side-nav-link'>
               review
             </Link>

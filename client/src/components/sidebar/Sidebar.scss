@@ -22,13 +22,17 @@
   .icon {
     color: white;
     margin-top: 4rem;
+    margin-left: 2rem;
     position: relative;
     z-index: 2;
 
     @media only screen and (max-width: $bp-small) {
-      margin-left: 3rem;
+      // margin-left: 3rem;
       margin-top: 0;
-      width: .5rem;
+      display: flex;
+      justify-content: space-evenly;
+      height: 2rem;
+      width: .2rem;
     }
   }
 
@@ -51,6 +55,14 @@
       display: flex;
       margin: 11px;
       font-size: 1.1rem;
+    }
+
+    &-link {
+      @media only screen and (max-width: $bp-large) {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 100px;
+      }
     }
 
     &-item {
@@ -96,11 +108,11 @@
       }
     }
 
-    &-item:active::before { 
-      background-color: var(--color-primary-light); 
+    // &-item:active::before { 
+    //   background-color: var(--color-primary-light); 
 
       
-    }
+    // }
 
     &-link:link,
     &-link:visited {
@@ -108,7 +120,7 @@
       color: var(--color-grey-light-1);
       display: flex;
       font-size: 2rem;
-      margin-right: 2rem;
+      margin-right: .4rem;
       padding: 1.5rem 2rem;
       position: relative;
       text-decoration: none;
@@ -116,7 +128,7 @@
       z-index: 2;
 
       @media only screen and (max-width: $bp-medium) {
-        justify-content: center;
+        justify-content: space-evenly;
         padding: 2rem;
         font-size: 1rem;
       }

@@ -31,16 +31,13 @@ const Gallery = () => {
   return (
     <div className="gallery-page">
       <Sidebar />
-      {/* <h1>American Arbor Tree Care Professionals Gallery</h1> */}
-      {/* {pictures.map(picture =>
-        <Picture key={picture.id} picture={picture} />
-      )} */}
       <div className="gallery-container">
         <div className="gallery-photo">
           <img src={screenshot1} alt=""/>
         </div>
         <div className="gallery-photo">
           <img src={screenshot2} alt=""/>
+          {/* <h2>Sometimes even nature gets the best of us!</h2> */}
         </div>
         <div className="gallery-photo">
           <img src={screenshot3} alt=""/>
@@ -50,18 +47,22 @@ const Gallery = () => {
         </div>
         <div className="gallery-photo">
           <img src={screenshot9} alt=""/>
+          {/* <h2>Covid friendly and always keeing it sanitary.</h2> */}
         </div>
         <div className="gallery-photo">
           <img src={screenshot6} alt=""/>
         </div>
         <div className="gallery-photo">
           <img src={screenshot7} alt=""/>
+          {/* <h2>Landscaping is a must</h2> */}
         </div>
         <div className="gallery-photo">
           <img src={screenshot8} alt=""/>
+          {/* <h2>Safe rope usage</h2> */}
         </div>
-        <div className="gallery-photo">
+        <div className="gallery-photo-last">
           <img src={screenshot5} alt=""/>
+          {/* <h2>Rope takedown</h2> */}
         </div>
         {/* <div className="gallery-photo">
           <img src={screenshot10} alt=""/>

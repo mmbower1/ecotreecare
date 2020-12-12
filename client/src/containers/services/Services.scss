@@ -33,7 +33,10 @@
 
       .column {
 
-        h2 { font-size: 3rem; }
+        h2 { 
+          font-size: 3rem; 
+          text-decoration: underline;
+        }
         p { font-size: 1.55rem; }
 
         &-img {
