@@ -3,13 +3,16 @@ import React from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
 // style
 import './Services.scss'
-import hotel1 from '../../img/hotel-1.jpg'
+import hotel1 from '../../img/hotel-1.jpg';
+import hotel2 from '../../img/hotel-2.jpg';
+import hotel3 from '../../img/hotel-3.jpg';
 
 const Services = () => {
   return (
     <div className='services'>
       <Sidebar />
       <div className='rows'>
+        <br />
         <div className='rows-section'>
           <div className='column'>
             <h2>Tree Maintenance</h2>
@@ -36,34 +39,34 @@ const Services = () => {
               of your valuable landscape trees and other plants. Preserving and
               enhancing your landscape’s beauty and potential requires
               consideration of the growing environment, and an eye for the
-              future.
+              future. From roses to redwoods, if it grows, we know how to care for it
+              properly.
               {/* <br /> */}
               <br />
-              Without question, unnecessary, poorly executed and excessive
+              {/* Without question, unnecessary, poorly executed and excessive
               pruning are among the chief stressors your landscape trees are
               subject to. Let American Arbor help you see the real needs of your
               valuable landscape plants. We know trees, and can help you know
-              them too.
+              them too. */}
               <br />
               <br />
-              There are of course plenty of legitimate pruning needs in
+              {/* There are of course plenty of legitimate pruning needs in
               landscape trees and other plants, and provided such work is
               carried out properly, your trees structure, longevity and
               appearance may be enhanced. American Arbor employs only highly
               skilled arborists and tree workers, certified by the International
               Society of Arboriculture, to ensure your trees receive the
-              precise, conservative attention they deserve.
+              precise, conservative attention they deserve. */}
               {/* <br />
               <br /> */}
-              From roses to redwoods, if it grows, we know how to care for it
-              properly.
             </p>
           </div>
-          <div className='column'>
+          {/* <div className='column'> */}
             <img src={hotel1} alt='' className='column-img' />
-          </div>
+            {/* <img src={hotel1} alt='' className='column-img' /> */}
+          {/* </div> */}
         </div>
-        {/* <br /> */}
+        <br />
         <div className='rows-section'>
           <div className='column'>
             <h2>Landscape Management</h2>
@@ -104,9 +107,11 @@ const Services = () => {
             </p>
           </div>
           <div className='column'>
-            <img src={hotel1} alt='' className='column-img' />
+            <img src={hotel2} alt='' className='column-img' />
+            {/* <img src={hotel1} alt='' className='column-img' /> */}
           </div>
         </div>
+        <br />
         <div className='rows-section'>
           <div className='column'>
             <h2>Tree Preservation</h2>
@@ -138,24 +143,25 @@ const Services = () => {
               the health of your landscape trees, while saving water and money. 
               {/* <br />
               <br /> */}
-              American Arbor utilizes a variety of material in place of water-needy lawn grass’ including 
+              {/* American Arbor utilizes a variety of material in place of water-needy lawn grass’ including 
               simple but attractive mulches, combinations of mulches and stone and drought tolerant 
               groundcover plants. All mulch application is preceded by inoculation of the soil with 
               root enhancing nycorrhizol fungi in solution. Mycorrhizae are root symbionts critical 
               to optimal root function. Once installed, a mulch bed provides an ideal environment not 
               only for existing trees, but also for new plants carefully tailored to your property, 
-              enhancing diversity, age variation and longevity. 
+              enhancing diversity, age variation and longevity.  */}
               <br />
               <br />
-              Sheet mulching, which involves the layering of various materials over a paper base, 
+              {/* Sheet mulching, which involves the layering of various materials over a paper base, 
               permits lawn conversions without the need of sod cutters and chemical applications. 
               Call American Arbor today for ideas suited to your property and tastes. While 
               conserving water and its costs, this effort is the single best thing you can do to 
-              optimize the health and longevity of your trees and other valuable landscape plants.
+              optimize the health and longevity of your trees and other valuable landscape plants. */}
             </p>
           </div>
           <div className='column'>
-            <img src={hotel1} alt='' className='column-img' />
+            <img src={hotel3} alt='' className='column-img' />
+            {/* <img src={hotel1} alt='' className='column-img' /> */}
           </div>
         </div>
       </div>

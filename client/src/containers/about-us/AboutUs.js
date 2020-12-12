@@ -9,7 +9,7 @@ const AboutUs = () => {
     <div className="about-us">
       <Sidebar />
         <div className="about-us-reading">
-          <h1>About American Arbor Tree Care Professionals</h1>
+          <h2>About American Arbor Tree Care Professionals</h2>
           <img src={ropeClimb} alt="" className="rope-climb-img" />
           <p>
             American Arbor began when its owner, Matthew Moore, had in his youth been working in Yosemite National Park removing hazardous trees for the N.P.S. It was there in Yosemite that Matthew learned about the careful precision required to safely remove some of the world's largest trees; his Miwok/Paiute mentors being among the world's most skilled technicians. 
