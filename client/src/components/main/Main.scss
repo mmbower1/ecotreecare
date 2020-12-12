@@ -1,6 +1,10 @@
 @import "../../scss/base/base";
 
 .main {
+  h1 {
+    padding: 5px 0;
+    margin-left: 5px;
+  }
 
   .gallery {
     background-color: var(--color-pimary-light);

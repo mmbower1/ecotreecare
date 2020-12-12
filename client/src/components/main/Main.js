@@ -13,7 +13,7 @@ const Main = () => {
   return (
     <div className="main">
       {/* <i className="fab fa-google"></i> */}
-      &nbsp;<h1>G - Leave us a google review!</h1>
+      <h1><i className="fab fa-google"></i> - Leave us a google review!</h1>
       <div className="gallery">
         <figure className="gallery-item">
           <img src={photo1} alt="photo-1" className="gallery-photo" />

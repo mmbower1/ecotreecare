@@ -38,7 +38,7 @@ const Sidebar = () => {
           <li className='side-nav-item'>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-thumbs-up fa-3x icon"></i>
             <Link to='/review' className='side-nav-link'>
-              leave review
+              review
             </Link>
           </li>
         </ul>
