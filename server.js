@@ -70,7 +70,6 @@ app.use(errorHandler);
 
 app.get('/', (req, res) => res.send('API Running'));
 
-console.log('');
 app.listen(
   PORT, 
   () => console.log(`>>> ecotreecare Server started on port ${PORT}`.black.bold)

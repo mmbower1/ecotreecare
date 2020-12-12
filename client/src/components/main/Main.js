@@ -17,7 +17,7 @@ const Main = () => {
       <div className="gallery">
         <figure className="gallery-item">
           <img src={photo1} alt="photo-1" className="gallery-photo" />
-          <h1 className="heading">Tree Maintenance</h1>
+          <h1 className="heading">Maintenance</h1>
           <div className="overview-reading-1">
             <p>Since 1982, American Arbor has worked proudly in the tree care industry with keen interest in both the quality and the... (learn more)</p>
           </div>
@@ -31,7 +31,7 @@ const Main = () => {
         </figure>
         <figure className="gallery-item">
           <img src={photo3} alt="photo-3" className="gallery-photo" />
-          <h1 className="heading" id="heading-3">Tree Preservation</h1>
+          <h1 className="heading" id="heading-3">Preservation</h1>
           <div className="overview-reading-1">
             <p>California’s drought has provided plant health care providers with a long-sought opportunity to address a very real problem... (learn more)</p>
           </div>

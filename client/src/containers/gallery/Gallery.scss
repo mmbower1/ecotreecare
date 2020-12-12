@@ -3,6 +3,25 @@
 .gallery-page {
   display: flex;
 
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    @media only screen and (max-width: $bp-large) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gallery-photo {
+      padding: 5px; 
+      
+      @media only screen and (max-width: $bp-large) {
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+
   @media only screen and (max-width: $bp-large) {
     flex-direction: column;
   }
