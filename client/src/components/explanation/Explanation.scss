@@ -32,8 +32,16 @@
       @media only screen and (max-width: $bp-medium) {
         font-size: 3rem;
         text-align: center;
+        
       }
     }
+
+    @media only screen and (max-width: $bp-medium) {
+      &-header {
+        line-height: 3.2rem;
+      }
+    }
+    
 
     .list {
       border-bottom: var(--line);
@@ -59,6 +67,7 @@
 
       @media only screen and (max-width: $bp-largest) {
         text-align: center;
+        line-height: 2.5rem;
       }
     }
     .paragraph:not(:last-of-type) {

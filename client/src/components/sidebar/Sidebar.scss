@@ -54,6 +54,7 @@
     @media only screen and (max-width: $bp-large) {
       display: flex;
       margin: 11px;
+      margin-top: 2.5rem;
       font-size: 1.1rem;
     }
 
@@ -67,6 +68,7 @@
 
     &-item {
       position: relative;
+
       &:not(:last-child) { 
         margin-bottom: .5rem; 
 

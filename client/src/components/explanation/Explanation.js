@@ -8,8 +8,7 @@ const Explanation = () => {
   return (
     <div className="explanation-container">
       <div className="explanation">
-      
-        <h1>
+        <h1 className="explanation-header">
           {/* <i className="fas fa-angle-double-right" style={{color: 'green'}}></i>&nbsp; */}
             Welcome to American Arbor Tree Care Professionals
           {/* &nbsp;<i className="fas fa-angle-double-left" style={{color: 'green'}}></i> */}

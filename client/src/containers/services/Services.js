@@ -3,7 +3,7 @@ import React from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
 // style
 import './Services.scss'
-import hotel1 from '../../img/hotel-1.jpg';
+import unsplash1 from '../../img/unsplash1.webp';
 import hotel2 from '../../img/hotel-2.jpg';
 import hotel3 from '../../img/hotel-3.jpg';
 
@@ -14,7 +14,7 @@ const Services = () => {
       <div className='rows'>
         <br />
         <div className='rows-section'>
-          <div className='column'>
+          <div className='column-1'>
             <h2>Tree Maintenance</h2>
             <p>
               Since 1982, American Arbor has worked proudly in the tree care
@@ -34,7 +34,7 @@ const Services = () => {
               practices, which unfortunately remain quite common in the green
               industry. While we receive many requests to perform various
               unnecessary and deleterious tasks, we are proud to avoid them, and
-              work instead to serve our clients’ long-term interests. Our
+              work instead to serve our clients’ long-term interests.<br /><br /> Our
               service is comprehensive. We see more than the unobvious pruning
               of your valuable landscape trees and other plants. Preserving and
               enhancing your landscape’s beauty and potential requires
@@ -61,14 +61,10 @@ const Services = () => {
               <br /> */}
             </p>
           </div>
-          {/* <div className='column'> */}
-            <img src={hotel1} alt='' className='column-img' />
-            {/* <img src={hotel1} alt='' className='column-img' /> */}
-          {/* </div> */}
         </div>
         <br />
         <div className='rows-section'>
-          <div className='column'>
+          <div className='column-2'>
             <h2>Landscape Management</h2>
             <p>
               Many properties, including HOA’s, golf courses and commercial complexes, 
@@ -90,9 +86,9 @@ const Services = () => {
               hazardous tress, location issues and hardscape conflicts. 
               <br />
               <br />
-              The phasing out of non-sustainable landscape trees and shrubs allows for 
+              {/* The phasing out of non-sustainable landscape trees and shrubs allows for 
               their replacement with well-chosen plants perfectly suited to location, 
-              enhancing beauty, diversity and value over time.
+              enhancing beauty, diversity and value over time. */}
               {/* <br />
               <br /> */}
               Management plans by American Arbor allow Davis and Sacramento property owners 
@@ -106,14 +102,10 @@ const Services = () => {
               properly. */}
             </p>
           </div>
-          <div className='column'>
-            <img src={hotel2} alt='' className='column-img' />
-            {/* <img src={hotel1} alt='' className='column-img' /> */}
-          </div>
         </div>
         <br />
         <div className='rows-section'>
-          <div className='column'>
+          <div className='column-3'>
             <h2>Tree Preservation</h2>
             <p>
             California’s drought has provided plant health care providers with a long-sought 
@@ -158,10 +150,6 @@ const Services = () => {
               conserving water and its costs, this effort is the single best thing you can do to 
               optimize the health and longevity of your trees and other valuable landscape plants. */}
             </p>
-          </div>
-          <div className='column'>
-            <img src={hotel3} alt='' className='column-img' />
-            {/* <img src={hotel1} alt='' className='column-img' /> */}
           </div>
         </div>
       </div>

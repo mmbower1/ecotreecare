@@ -16,7 +16,7 @@
     @media only screen and (max-width: $bp-large) {
       // display: none;
       #american-express, #discover, #mastercard, #visa {
-        height: 30px;
+        height: 21px;
       }
     }
   }
@@ -31,6 +31,12 @@
     display: flex;
     flex: 0 0 40%;
     justify-content: center;
+
+    .search-input {
+      @media only screen and (max-width: $bp-medium) {
+        width: 85%;
+      }
+    }
 
     @media only screen and (max-width: $bp-medium) {
       flex: 0 0 45%;
@@ -57,6 +63,10 @@
       transition: all .2s;
       width: 75%;
 
+      @media only screen and (max-width: $bp-medium) {
+        font-size: 1.5rem;
+      }
+
       &:focus {
         background-color: var(--color-grey-light-3);
         outline: none;
@@ -79,6 +89,10 @@
     align-self: stretch;
     background-color: var(--color-pimary-light);
     display: flex;
+
+    @media only screen and (max-width: $bp-small) {
+      line-height: 2rem;
+    }
 
     p {
       align-items: center;

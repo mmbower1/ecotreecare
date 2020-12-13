@@ -2,6 +2,7 @@
 
 .services {
   display: flex;
+  color: black;
 
   p {
     line-height: 1.8rem;
@@ -39,14 +40,86 @@
         display: flex;
       }
 
-      .column {
-
+      .column-1 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ), url('https://images.unsplash.com/photo-1597206232492-d19c982276c8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8dHJlZSUyMGFyYm9yfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+    
         h2 { 
+          color: #fff;
           font-size: 3rem; 
           text-decoration: underline;
           margin-left: 5px;
         }
-        p { font-size: 1.55rem; }
+        p { 
+          color: #fff;
+          font-size: 1.55rem;
+          line-height: 2.3rem;
+          width: 75%; 
+          @media only screen and (max-width: $bp-large) {
+            width: 100%; 
+          }
+        }
+
+        &-img {
+          height: 40rem;
+          width: 50rem;
+        }
+      }
+      .column-2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ), url('https://images.unsplash.com/photo-1566459783060-a682cd85bedf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyZWUlMjBhcmJvcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+    
+        h2 { 
+          color: #fff;
+          font-size: 3rem; 
+          text-decoration: underline;
+          margin-left: 5px;
+        }
+        p { 
+          color: #fff;
+          font-size: 1.55rem; 
+          line-height: 2.3rem;
+          width: 75%; 
+          @media only screen and (max-width: $bp-large) {
+            width: 100%; 
+          }
+        }
+
+        &-img {
+          height: 40rem;
+          width: 50rem;
+        }
+      }
+      .column-3 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://images.unsplash.com/photo-1510521212584-6d33ce4408d1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2t5YXJkJTIwdHJlZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+        h2 { 
+          color: #fff;
+          font-size: 3rem; 
+          text-decoration: underline;
+          margin-left: 5px;
+        }
+        p { 
+          color: #fff;
+          font-size: 1.55rem;
+          line-height: 2.3rem; 
+          width: 75%; 
+          @media only screen and (max-width: $bp-large) {
+            width: 100%; 
+          }
+        }
 
         &-img {
           height: 40rem;
