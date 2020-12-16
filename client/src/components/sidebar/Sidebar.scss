@@ -107,14 +107,10 @@
       @media only screen and (max-width: $bp-largest) {
         background-color: var(--color-grey-dark-1);
         height: 5rem; 
+        transform: scaleY(1);
+        transition: transform, width .1s cubic-bezier(8, 0, 0, 1);
       }
     }
-
-    // &-item:active::before { 
-    //   background-color: var(--color-primary-light); 
-
-      
-    // }
 
     &-link:link,
     &-link:visited {

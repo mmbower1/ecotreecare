@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 // import { persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage';
 // reducers
-// import subscribe from './subscription';
+import { reviewReducer } from './reviewReducers';
 // import profile from './profile';
 
 // const persistConfig = {
@@ -13,7 +13,7 @@ import { combineReducers } from 'redux';
 // }
 
 const rootReducer = combineReducers({
-  // subscribe
+  reviewReducer
   // profile
 });
 
