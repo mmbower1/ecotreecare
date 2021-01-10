@@ -26,16 +26,18 @@ const Review = ({ history, location }) => {
         title: 'Please fill out both fields!',
         customClass: 'swal-font',
         icon: 'warning'        
-      })
+      });
     } else {
-      dispatch(setReview(name, text))
+      dispatch(setReview(name, text));
       Swal.fire({
         title: 'Thanks',
         title: 'Your review has been sent!',
         icon: 'success',
         height: '400px',
         width: '400px'
-      })
+      });
+      setName('');
+      setText('');
     }
   }
 

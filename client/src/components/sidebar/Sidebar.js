@@ -30,15 +30,15 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className='side-nav-item'>
-          <i className="fas fa-address-card fa-3x icon"></i>
-            <Link to='/about-us' className='side-nav-link'>
-              about
-            </Link>
-          </li>
-          <li className='side-nav-item'>
           <i className="fas fa-thumbs-up fa-3x icon"></i>
             <Link to='/review' className='side-nav-link'>
               review
+            </Link>
+          </li>
+          <li className='side-nav-item'>
+          <i className="fas fa-address-card fa-3x icon"></i>
+            <Link to='/about-us' className='side-nav-link'>
+              about
             </Link>
           </li>
         </ul>

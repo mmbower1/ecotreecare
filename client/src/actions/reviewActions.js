@@ -12,8 +12,8 @@ export const setReview = (name, text) => async (dispatch) => {
       },
     }
     const { data } = await axios.post(
-      // '/review',
-      'https://api.monarchtracker.com/review',
+      '/review',
+      // 'https://api.monarchtracker.com/review',
       { name, text }, config
     )
     dispatch({

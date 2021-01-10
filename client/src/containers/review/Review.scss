@@ -68,6 +68,14 @@
         padding: 10px;
         width: 100%;
       }
+
+      .review-button:active {
+        transform: scale(.9);
+      }
+
+      .review-button:focus {
+        outline: 0;
+      }
     } 
 
     

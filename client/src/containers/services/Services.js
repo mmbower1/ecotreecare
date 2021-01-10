@@ -34,13 +34,9 @@ const Services = () => {
               practices, which unfortunately remain quite common in the green
               industry. While we receive many requests to perform various
               unnecessary and deleterious tasks, we are proud to avoid them, and
-              work instead to serve our clients’ long-term interests.<br /><br /> Our
+              work instead to serve our clients’ long-term interests. Our
               service is comprehensive. We see more than the unobvious pruning
-              of your valuable landscape trees and other plants. Preserving and
-              enhancing your landscape’s beauty and potential requires
-              consideration of the growing environment, and an eye for the
-              future. From roses to redwoods, if it grows, we know how to care for it
-              properly.
+              of your valuable landscape trees and other plants.
               {/* <br /> */}
               <br />
               {/* Without question, unnecessary, poorly executed and excessive
@@ -77,13 +73,10 @@ const Services = () => {
               American Arbor takes great pride in avoiding superfluous tasks and those 
               that actually result in increased maintenance over time. This is especially 
               the case with regard to pruning: much of what we see is simply contraindicated,
-              and for a plethora of reasons. 
+              and for a plethora of reasons. Management plans by American Arbor address only 
+              the true pruning needs and other factors influencing each tree’s health and structure.
               {/* <br />
               <br /> */}
-              Management plans by American Arbor address only the true pruning needs and other 
-              factors influencing each tree’s health and structure. A management plan also 
-              identifies non-sustainable plants; including those in decline, the vulnerable, 
-              hazardous tress, location issues and hardscape conflicts. 
               <br />
               <br />
               {/* The phasing out of non-sustainable landscape trees and shrubs allows for 
@@ -108,8 +101,8 @@ const Services = () => {
           <div className='column-3'>
             <h2>Tree Preservation</h2>
             <p>
-            California’s drought has provided plant health care providers with a long-sought 
-            opportunity to address a very real problem in countless landscapes. 
+              California’s drought has provided plant health care providers with a long-sought 
+              opportunity to address a very real problem in countless landscapes. 
               {/* <br />
               <br /> */}
               Quite simply, in all but the best drained soils, trees and lawns are poor 
@@ -127,12 +120,6 @@ const Services = () => {
               Nature provides for soil enhancing organic layers under the trees and other plants. 
               Such layers have many benefits: improved soil structure and fertility, better gas 
               exchange, increased beneficial microbial activity and soil temperature moderation, just to name a few. 
-              <br />
-              <br />
-              Gaining control over soil moisture is a critical component of plant health care. 
-              Achieving control over irrigation does not require that you eliminate lawn altogether 
-              from your landscape, but artfully reducing its area pays off big in terms of improving 
-              the health of your landscape trees, while saving water and money. 
               {/* <br />
               <br /> */}
               {/* American Arbor utilizes a variety of material in place of water-needy lawn grass’ including 
