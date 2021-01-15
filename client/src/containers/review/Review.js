@@ -41,6 +41,26 @@ const Review = ({ history, location }) => {
     }
   }
 
+  // const onClick = (e) => {
+  //   const x = e.clientX;
+  //   const y = e.clientY;
+  //   const buttonLeft = e.target.offsetLeft;
+  //   const buttonTop = e.target.offsetTop;
+  //   const xInside = x - buttonLeft;
+  //   const yInside = y - buttonTop;
+
+  //   // adds element to DOM on every click
+  //   const circle = document.createElement('span');
+  //   circle.classList.add('circle');
+  //   circle.style.top = yInside + 'px';
+  //   circle.style.left = xInside + 'px';
+
+  //   // this.appendChild(circle);
+
+  //   // removes extra remaining elements from DOM
+  //   setTimeout(() => circle.remove(), 500);
+  // }
+
   useEffect(() => {
     if (reviews) {
       history.push(redirect)
@@ -78,7 +98,11 @@ const Review = ({ history, location }) => {
             </textarea>
             <small></small>
           </div>
-          <button className="review-button">Submit</button>
+          <button 
+            className="review-button" 
+            // onClick={onClick}
+          >Submit
+          </button>
         </form>
       </div>
     </div>
