@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 // components
-import Sidebar from '../../components/sidebar/Sidebar'
+import Sidebar from "../../components/sidebar/Sidebar";
 // style
-import './Services.scss'
-import unsplash1 from '../../img/unsplash1.webp';
-import hotel2 from '../../img/hotel-2.jpg';
-import hotel3 from '../../img/hotel-3.jpg';
+import "./Services.scss";
+import unsplash1 from "../../img/unsplash1.webp";
+import hotel2 from "../../img/hotel-2.jpg";
+import hotel3 from "../../img/hotel-3.jpg";
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className="services">
       <Sidebar />
-      <div className='rows'>
+      <div className="rows">
         <br />
-        <div className='rows-section'>
-          <div className='column-1'>
+        <div className="rows-section">
+          <div className="column-1">
             <h2>Tree Maintenance</h2>
             <p>
               Since 1982, American Arbor has worked proudly in the tree care
@@ -59,22 +59,25 @@ const Services = () => {
           </div>
         </div>
         <br />
-        <div className='rows-section'>
-          <div className='column-2'>
+        <div className="rows-section">
+          <div className="column-2">
             <h2>Landscape Management</h2>
             <p>
-              Many properties, including HOA’s, golf courses and commercial complexes, 
-              can benefit greatly utilizing a management plan created by American Arbor. 
-              This tool, which begins with an inventory of existing trees and their needs, 
-              enable the property manager to recognize and prioritize maintenance tasks 
-              so that needs may be addresses over time, within budget and have true merit.
+              Many properties, including HOA’s, golf courses and commercial
+              complexes, can benefit greatly utilizing a management plan created
+              by American Arbor. This tool, which begins with an inventory of
+              existing trees and their needs, enable the property manager to
+              recognize and prioritize maintenance tasks so that needs may be
+              addresses over time, within budget and have true merit.
               <br />
               <br />
-              American Arbor takes great pride in avoiding superfluous tasks and those 
-              that actually result in increased maintenance over time. This is especially 
-              the case with regard to pruning: much of what we see is simply contraindicated,
-              and for a plethora of reasons. Management plans by American Arbor address only 
-              the true pruning needs and other factors influencing each tree’s health and structure.
+              American Arbor takes great pride in avoiding superfluous tasks and
+              those that actually result in increased maintenance over time.
+              This is especially the case with regard to pruning: much of what
+              we see is simply contraindicated, and for a plethora of reasons.
+              Management plans by American Arbor address only the true pruning
+              needs and other factors influencing each tree’s health and
+              structure.
               {/* <br />
               <br /> */}
               <br />
@@ -84,11 +87,11 @@ const Services = () => {
               enhancing beauty, diversity and value over time. */}
               {/* <br />
               <br /> */}
-              Management plans by American Arbor allow Davis and Sacramento property owners 
-              and managers to avoid the expense and impact of unnecessary pruning, and 
-              serve to provide focus into the real needs of their gardens over time. 
-              American Arbor offers a glimpse into the future and tailors a plan that 
-              optimizes that future.
+              Management plans by American Arbor allow Davis and Sacramento
+              property owners and managers to avoid the expense and impact of
+              unnecessary pruning, and serve to provide focus into the real
+              needs of their gardens over time. American Arbor offers a glimpse
+              into the future and tailors a plan that optimizes that future.
               {/* <br />
               <br />
               From roses to redwoods, if it grows, we know how to care for it
@@ -97,29 +100,35 @@ const Services = () => {
           </div>
         </div>
         <br />
-        <div className='rows-section'>
-          <div className='column-3'>
+        <div className="rows-section">
+          <div className="column-3">
             <h2>Tree Preservation</h2>
             <p>
-              California’s drought has provided plant health care providers with a long-sought 
-              opportunity to address a very real problem in countless landscapes. 
+              California’s drought has provided plant health care providers with
+              a long-sought opportunity to address a very real problem in
+              countless landscapes.
               {/* <br />
               <br /> */}
-              Quite simply, in all but the best drained soils, trees and lawns are poor 
-              combinations. Water displaces soil gases, including oxygen, and oxygen-deprived 
-              roots lead to vulnerable trees and premature decline. This availability of 
-              gaseous oxygen to tree roots is a fundamental physiological need, and tree 
-              deprived of it due to over-irrigation and/or poor drainage suffers over time. This is fact. 
+              Quite simply, in all but the best drained soils, trees and lawns
+              are poor combinations. Water displaces soil gases, including
+              oxygen, and oxygen-deprived roots lead to vulnerable trees and
+              premature decline. This availability of gaseous oxygen to tree
+              roots is a fundamental physiological need, and tree deprived of it
+              due to over-irrigation and/or poor drainage suffers over time.
+              This is fact.
               <br />
               <br />
-              American Arbor has always addressed this problem on properties we serve, but reduction 
-              of lawn area and irrigation volume has often been met with resistance by property owners
-              and lawn maintenance firms. People love their lawns.
+              American Arbor has always addressed this problem on properties we
+              serve, but reduction of lawn area and irrigation volume has often
+              been met with resistance by property owners and lawn maintenance
+              firms. People love their lawns.
               {/* <br />
               <br /> */}
-              Nature provides for soil enhancing organic layers under the trees and other plants. 
-              Such layers have many benefits: improved soil structure and fertility, better gas 
-              exchange, increased beneficial microbial activity and soil temperature moderation, just to name a few. 
+              Nature provides for soil enhancing organic layers under the trees
+              and other plants. Such layers have many benefits: improved soil
+              structure and fertility, better gas exchange, increased beneficial
+              microbial activity and soil temperature moderation, just to name a
+              few.
               {/* <br />
               <br /> */}
               {/* American Arbor utilizes a variety of material in place of water-needy lawn grass’ including 
@@ -141,7 +150,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

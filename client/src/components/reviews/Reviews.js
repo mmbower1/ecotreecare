@@ -1,20 +1,20 @@
-import React from 'react';
+import React from "react";
 // styles
-import './Reviews.scss';
-import mattb from '../../img/mattb.jpg'
-import mattb2 from '../../img/mattb2.jpg'
+import "./Reviews.scss";
+import mattb2 from "../../img/mattb2.jpg";
 
 const Reviews = () => {
   return (
     <div className="reviews">
       <figure className="review">
         <blockquote className="review-text">
-          Trees are all shined and cleaned up, no more dangerous hazards, and yard looks great. Five stars.
+          Trees are all shined and cleaned up, no more dangerous hazards, and
+          yard looks great. Five stars.
         </blockquote>
         <figcaption className="review-user">
-          <img src={mattb} alt="" className="review-photo" />
+          <img src="" alt="" className="review-photo" />
           <div className="review-user-box">
-            <p className="review-user-name">Matt Bower</p>
+            <p className="review-user-name">Tina Dolan</p>
             <p className="review-user-date">1/21/2019</p>
           </div>
         </figcaption>
@@ -33,7 +33,8 @@ const Reviews = () => {
       </figure>
       <figure className="review">
         <blockquote className="review-text">
-          Healthy trees, no more hazards for my kids playing in the driveway. I highly recommend to anybody in the area.
+          Healthy trees, no more hazards for my kids playing in the driveway. I
+          highly recommend to anybody in the area.
         </blockquote>
         <figcaption className="review-user">
           <img src="" alt="" className="review-photo" />
@@ -43,11 +44,14 @@ const Reviews = () => {
           </div>
         </figcaption>
       </figure>
-      <button className="btn-inline">Show all
-        <span><i className="fas fa-arrow-right"></i></span>
+      <button className="btn-inline">
+        Show all
+        <span>
+          <i className="fas fa-arrow-right"></i>
+        </span>
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Reviews
+export default Reviews;
