@@ -93,6 +93,7 @@
     align-self: stretch;
     background-color: var(--color-pimary-light);
     display: flex;
+    margin-right: 7em;
 
     @media only screen and (max-width: $bp-small) {
       line-height: 2rem;
