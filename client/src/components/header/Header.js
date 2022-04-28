@@ -1,16 +1,18 @@
-import React from 'react';
-import logo from '../../img/tree-solid.svg';
+import React from "react";
+import logo from "../../img/tree-solid.svg";
 //style
-import './Header.scss';
-import americanExpress from '../../img/american-express.png';
-import discover from '../../img/discover.png';
-import mastercard from '../../img/mastercard.png';
-import visa from '../../img/visa.png';
+import "./Header.scss";
+import btc from "../../img/btc-logo.png";
+import eth from "../../img/eth-logo.png";
+import americanExpress from "../../img/american-express.png";
+import discover from "../../img/discover.png";
+import mastercard from "../../img/mastercard.png";
+import visa from "../../img/visa.png";
 
 const Header = () => {
   return (
     <div className="header">
-      <img src={logo} alt="ecotreecare-logo" className="logo"/>
+      <img src={logo} alt="ecotreecare-logo" className="logo" />
       <form action="#" className="search">
         <input
           className="search-input"
@@ -22,16 +24,29 @@ const Header = () => {
         </button>
       </form>
       <div className="credit-cards">
-        <img src={americanExpress} alt="american-express.png" id="american-express" />
+        <img
+          src={americanExpress}
+          alt="american-express.png"
+          id="american-express"
+        />
         <img src={discover} alt="discover.png" id="discover" />
         <img src={mastercard} alt="mastercard.png" id="mastercard" />
         <img src={visa} alt="visa.png" id="visa" />
       </div>
+      <div className="btc-eth">
+        <img src={btc} alt="btc-logo" id="btc" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src={eth} alt="eth-logo" id="eth" />
+      </div>
       <div className="subscribe">
-        <p>Questions? <br />Contact us today!<br /> (530) 206-7681 </p>
+        <p>
+          Questions? <br />
+          Contact us today!
+          <br /> (530) 206-7681{" "}
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

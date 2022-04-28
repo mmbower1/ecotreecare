@@ -8,11 +8,16 @@
 
   &-content {
     margin-bottom: 5rem;
+    margin-left: 10px;
   }
 
   p {
     font-size: 2rem;
     text-decoration: none;
+  }
+
+  #accredited {
+    margin-left: 6px;
   }
 
   #certified {
@@ -142,8 +147,6 @@
   .legal {
     font-size: 2rem;
     color: var(--color-grey-light-4);
-    text-align: center;
-    padding: 2.5rem;
 
     @media only screen and (max-width: $bp-medium) {
       display: none;
