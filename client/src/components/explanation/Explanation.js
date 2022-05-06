@@ -11,22 +11,31 @@ const Explanation = () => {
       <div className="explanation">
         <h1 className="explanation-header">
           {/* <i className="fas fa-angle-double-right" style={{color: 'green'}}></i>&nbsp; */}
-          <img src={logo} alt="ecotreecare-logo" className="logo" />
-          &nbsp; Welcome to American Arbor Tree Care Professionals
+          {/* <img src={logo} alt="ecotreecare-logo" className="logo" />
+          &nbsp;  */}
+          Welcome to American Arbor Tree Care Professionals
           {/* &nbsp;<i className="fas fa-angle-double-left" style={{color: 'green'}}></i> */}
         </h1>
 
         <p className="paragraph">
-          American Arbor Tree Care Professionals provides excellent tree care
-          services and comprehensive plans for landscape management. Tree care
-          is our passion and we provide every customer with a hands on
-          maintenance plan that gives you control over how your landscape looks.
-          All of our rates are affordable and come with the guarantee that we
-          will cut no corners, no matter how small or large the project is. No
-          matter what the job, we can help you finish it.
+          <i
+            className="fas fa-angle-double-right"
+            style={{ color: "green" }}
+          ></i>
+          &nbsp; We provide excellent tree care services and comprehensive plans
+          for landscape management. Tree care is our passion and we provide
+          every customer with a hands on maintenance plan that gives you control
+          over how your landscape looks. All of our rates are affordable and
+          come with the guarantee that we will cut no corners, no matter how
+          small or large the project is. No matter what the job, we can help you
+          finish it.
           <br />
           <br />
-          American Arbor Tree Care Professionals offers a wide variety of
+          <i
+            className="fas fa-angle-double-right"
+            style={{ color: "green" }}
+          ></i>
+          &nbsp; American Arbor Tree Care Professionals offers a wide variety of
           services to help all clients. We provide top level tree maintenance
           for overgrown trees and trees that need professional care to maintain
           their original sizes, shapes, and health. We understand trees well and

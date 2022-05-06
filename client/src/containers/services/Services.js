@@ -87,11 +87,11 @@ const Services = () => {
               enhancing beauty, diversity and value over time. */}
               {/* <br />
               <br /> */}
-              Management plans by American Arbor allow Davis and Sacramento
+              {/* Management plans by American Arbor allow Davis and Sacramento
               property owners and managers to avoid the expense and impact of
               unnecessary pruning, and serve to provide focus into the real
               needs of their gardens over time. American Arbor offers a glimpse
-              into the future and tailors a plan that optimizes that future.
+              into the future and tailors a plan that optimizes that future. */}
               {/* <br />
               <br />
               From roses to redwoods, if it grows, we know how to care for it
