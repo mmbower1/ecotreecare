@@ -24,6 +24,10 @@
     margin: 0 10px;
   }
 
+  // &-reading {
+  //   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  // }
+
   @media only screen and (max-width: $bp-large) {
     flex-direction: column;
   }
