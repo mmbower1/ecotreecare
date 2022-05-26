@@ -9,9 +9,8 @@
   font-size: 1.5rem;
   height: 13rem;
   justify-content: space-between;
-  position: fixed;
+  // position: fixed;
   top: 0;
-  width: 100%;
   z-index: 2;
 
   .credit-cards {
@@ -21,7 +20,7 @@
     @media only screen and (max-width: $bp-large) {
       // display: none;
       #american-express, #discover, #mastercard, #visa {
-        height: 28px;
+        height: 25px;
         margin-right: 3px;
       }
     }
@@ -34,7 +33,7 @@
     @media only screen and (max-width: $bp-large) {
       // display: none;
       #btc, #eth {
-        height: 28px;
+        height: 25px;
       }
     }
   }
@@ -107,7 +106,7 @@
     align-self: stretch;
     background-color: var(--color-pimary-light);
     display: flex;
-    margin-right: 7em;
+    // margin-right: 7em;
 
     @media only screen and (max-width: $bp-small) {
       line-height: 2rem;
