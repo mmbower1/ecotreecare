@@ -36,14 +36,14 @@ const Explanation = () => {
               className="fas fa-angle-double-right"
               style={{ color: "green" }}
             ></i>
-            &nbsp;Cabling
+            &nbsp;Cabling and rope
           </li>
           <li className="list-item">
             <i
               className="fas fa-angle-double-right"
               style={{ color: "green" }}
             ></i>
-            &nbsp;Conservative, prevision pruning
+            &nbsp;Previsioned pruning
           </li>
           <li className="list-item">
             <i
@@ -57,7 +57,14 @@ const Explanation = () => {
               className="fas fa-angle-double-right"
               style={{ color: "green" }}
             ></i>
-            &nbsp;Fertilization, mycorrhizal applications, soil work
+            &nbsp;Soil work applications
+          </li>
+          <li className="list-item">
+            <i
+              className="fas fa-angle-double-right"
+              style={{ color: "green" }}
+            ></i>
+            &nbsp;Fertilization, mycorrhizal
           </li>
           <li className="list-item">
             <i
@@ -106,7 +113,7 @@ const Explanation = () => {
               className="fas fa-angle-double-right"
               style={{ color: "green" }}
             ></i>
-            &nbsp;Selection and placement consulting
+            &nbsp;Placement consulting
           </li>
           <li className="list-item">
             <i

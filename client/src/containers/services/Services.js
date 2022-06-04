@@ -22,11 +22,11 @@ const Services = () => {
               practicality of services we offer.
               {/* <br />
               <br /> */}
-              Because all landscapes represent significant investments initially
+              {/* Because all landscapes represent significant investments initially
               and over time; and because such investments are intended to
               beautify properties while enhancing value, maintenance tasks
               should have clearly defined objectives which preserve and increase
-              that value, and never detract from it.
+              that value, and never detract from it. */}
               <br />
               <br />
               American Arbor takes great pride in offering tree management tasks
@@ -109,19 +109,17 @@ const Services = () => {
               countless landscapes.
               {/* <br />
               <br /> */}
-              Quite simply, in all but the best drained soils, trees and lawns
-              are poor combinations. Water displaces soil gases, including
-              oxygen, and oxygen-deprived roots lead to vulnerable trees and
-              premature decline. This availability of gaseous oxygen to tree
-              roots is a fundamental physiological need, and tree deprived of it
-              due to over-irrigation and/or poor drainage suffers over time.
-              This is fact.
+              Water displaces soil gases, including oxygen, and oxygen-deprived
+              roots lead to vulnerable trees and premature decline. This
+              availability of gaseous oxygen to tree roots is a fundamental
+              physiological need, and tree deprived of it due to over-irrigation
+              and/or poor drainage suffers over time. This is fact.
               <br />
               <br />
-              American Arbor has always addressed this problem on properties we
+              {/* American Arbor has always addressed this problem on properties we
               serve, but reduction of lawn area and irrigation volume has often
               been met with resistance by property owners and lawn maintenance
-              firms. People love their lawns.
+              firms. People love their lawns. */}
               {/* <br />
               <br /> */}
               Nature provides for soil enhancing organic layers under the trees
