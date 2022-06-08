@@ -1,0 +1,60 @@
+@import "../../scss/base/base";
+
+.search {
+  align-items: center;
+  display: flex;
+  flex: 0 0 40%;
+  justify-content: center;
+
+  .search-input {
+    @media only screen and (max-width: $bp-medium) {
+      margin-right: 1px;
+      width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    flex: 0 0 45%;
+  }
+
+  &-button {
+    background-color: var(--color-grey-light-2);
+    border: none;
+
+    &:focus { outline: none; }
+    &:active { transform: translateY(2px); }
+
+  }
+
+  &-input {
+    background-color: var(--color-grey-light-3);
+    border: none;
+    border-radius: 100px;
+    color: inherit;
+    font-family: inherit;
+    font-size: 2rem;
+    margin-right: -3.25rem;
+    padding: 1rem 2rem;
+    transition: all .2s;
+    width: 75%;
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 1.5rem;
+    }
+
+    &:focus {
+      background-color: var(--color-grey-light-3);
+      outline: none;
+      width: 85%;
+    }
+
+    &::-webkit-input-placeholder {
+      color: var(--color-grey-light-4);
+      font-weight: 100;
+    }
+  }
+
+  &-input:focus + &-button {
+    background-color: var(--color-grey-light-3);
+  }
+}

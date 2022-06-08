@@ -1,35 +1,57 @@
 const trees = [
   {
-    name: 'California Buckeye'
+    name: "California Buckeye",
+    image: "",
+    description: "",
   },
   {
-    name: 'Sycamore'
+    name: "Sycamore",
+    image: "",
+    description: "",
   },
   {
-    name: 'Black Walnut'
+    name: "Black Walnut",
+    image: "",
+    description: "",
   },
   {
-    name: 'Cottonwood'
+    name: "Cottonwood",
+    image: "",
+    description: "",
   },
   {
-    name: 'Oregon Ash'
+    name: "Oregon Ash",
+    image: "",
+    description: "",
   },
   {
-    name: 'Gray Pine'
+    name: "Gray Pine",
+    image: "",
+    description: "",
   },
   {
-    name: 'White Alder'
+    name: "White Alder",
+    image: "",
+    description: "",
   },
   {
-    name: 'Western Redbud'
+    name: "Western Redbud",
+    image: "",
+    description: "",
   },
   {
-    name: 'Canyon Live Oak'
+    name: "Canyon Live Oak",
+    image: "",
+    description: "",
   },
   {
-    name: 'Blue Oak'
+    name: "Blue Oak",
+    image: "",
+    description: "",
   },
   {
-    name: 'Valley Oak'
+    name: "Valley Oak",
+    image: "",
+    description: "",
   },
 ];

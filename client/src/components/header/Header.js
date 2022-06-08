@@ -1,19 +1,22 @@
 import React from "react";
-import logo from "../../img/tree-solid.svg";
+import { Route } from "react-router-dom";
 //style
 import "./Header.scss";
+import logo from "../../img/tree-solid.svg";
 import btc from "../../img/btc-logo.png";
 import eth from "../../img/eth-logo.png";
 import americanExpress from "../../img/american-express.png";
 import discover from "../../img/discover.png";
 import mastercard from "../../img/mastercard.png";
 import visa from "../../img/visa.png";
+// components
+import SearchBox from "../searchBox/SearchBox";
 
 const Header = () => {
   return (
     <div className="header">
       <img src={logo} alt="ecotreecare-logo" className="logo" />
-      <form action="#" className="search">
+      {/* <form action="#" className="search">
         <input
           className="search-input"
           placeholder="Search trees"
@@ -22,7 +25,8 @@ const Header = () => {
         <button className="search-button">
           <i className="fas fa-search"></i>
         </button>
-      </form>
+      </form> */}
+      <Route render={({ history }) => <SearchBox history={history} />} />
       <div className="credit-cards">
         <img
           src={americanExpress}
