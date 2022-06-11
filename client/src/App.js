@@ -29,6 +29,7 @@ const AboutUs = lazy(() => import("./containers/about-us/AboutUs"));
 const Services = lazy(() => import("./containers/services/Services"));
 const Gallery = lazy(() => import("./containers/gallery/Gallery"));
 const Review = lazy(() => import("./containers/review/Review"));
+const Search = lazy(() => import("./containers/search/Search"));
 
 function App(props) {
   return (
@@ -49,7 +50,7 @@ function App(props) {
                   render={(props) => <Gallery {...props} />}
                 />
                 <Route exact path="/review" component={Review} />
-                <Route exact path="/search/:keyword" component={Homepage} />
+                <Route exact path="/search/:keyword" component={Search} />
                 <Footer />
               </div>
             </Suspense>

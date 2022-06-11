@@ -9,7 +9,7 @@ dotenv.config({ path: "./config/config.env" });
 // load models
 const Review = require("./models/Review");
 const Tree = require("./models/Tree");
-const User = require("./models/User");
+// const User = require("./models/User");
 // mongo
 const connectDB = require("./config/db.js");
 
@@ -23,8 +23,8 @@ const importData = async () => {
     await Review.deleteMany();
     await Tree.deleteMany();
 
-    await Review.create();
-    await Tree.create(trees);
+    await Review.insertMany();
+    await Tree.insertMany(trees);
     console.log("Data imported...".green.inverse);
     process.exit();
   } catch (err) {
@@ -44,7 +44,7 @@ const deleteData = async () => {
   }
 };
 
-// type into terminal
+// type into terminal 'node seeder -i' to run
 if (process.argv[2] === "-i") {
   importData();
 } else if (process.argv[2] === "-d") {

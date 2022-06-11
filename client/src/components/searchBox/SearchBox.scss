@@ -7,6 +7,7 @@
   justify-content: center;
 
   .search-input {
+
     @media only screen and (max-width: $bp-medium) {
       margin-right: 1px;
       width: 85%;
@@ -36,10 +37,10 @@
     margin-right: -3.25rem;
     padding: 1rem 2rem;
     transition: all .2s;
-    width: 75%;
 
     @media only screen and (max-width: $bp-medium) {
       font-size: 1.5rem;
+      width: 85%;
     }
 
     &:focus {

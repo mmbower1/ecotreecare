@@ -3,15 +3,15 @@ const mongoose = require("mongoose");
 const treeSchema = mongoose.Schema({
   name: {
     type: String,
-    required: true,
+    // required: true,
   },
   image: {
     type: String,
-    required: true,
+    // required: true,
   },
   description: {
     type: String,
-    required: true,
+    // required: true,
   },
 });
 

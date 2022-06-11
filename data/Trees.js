@@ -55,3 +55,5 @@ const trees = [
     description: "",
   },
 ];
+
+module.exports = trees;
