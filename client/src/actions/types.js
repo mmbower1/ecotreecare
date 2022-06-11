@@ -1,4 +1,7 @@
+export const REVIEW_REQUEST = "REVIEW_REQUEST";
+export const REVIEW_SUCCESS = "REVIEW_SUCCESS";
+export const REVIEW_FAIL = "REVIEW_FAIL";
 
-export const REVIEW_REQUEST = 'REVIEW_REQUEST';
-export const REVIEW_SUCCESS = 'REVIEW_SUCCESS';
-export const REVIEW_FAIL = 'REVIEW_FAIL';
+export const TREES_REQUEST = "TREES_REQUEST";
+export const TREES_SUCCESS = "TREES_SUCCESS";
+export const TREES_FAIL = "TREES_FAIL";

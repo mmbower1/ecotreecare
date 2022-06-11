@@ -63,6 +63,7 @@ app.use("/about-us", require("./routes/aboutUs"));
 app.use("/services", require("./routes/services"));
 app.use("/gallery", require("./routes/gallery"));
 app.use("/review", require("./routes/review"));
+app.use("/search", require("./routes/search"));
 
 // heroku
 if (process.env.NODE_ENV === "production") {

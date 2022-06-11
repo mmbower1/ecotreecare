@@ -1,9 +1,10 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
 // redux persist for localStorage
 // import { persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage';
 // reducers
-import { reviewReducer } from './reviewReducers';
+import { reviewReducer } from "./reviewReducers";
+import { treesReducer } from "./treeReducers";
 // import profile from './profile';
 
 // const persistConfig = {
@@ -13,7 +14,8 @@ import { reviewReducer } from './reviewReducers';
 // }
 
 const rootReducer = combineReducers({
-  reviewReducer
+  reviewReducer,
+  treesReducer,
   // profile
 });
 
