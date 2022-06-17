@@ -25,7 +25,7 @@ router.get("/", async (req, res) => {
         }
       : {};
     const trees = await Tree.find({ ...keyword });
-    res.json(trees);
+    res.json({ trees });
   } catch (err) {
     res.status(500).send(err + " Server error search");
   }

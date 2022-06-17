@@ -11,6 +11,7 @@ const Search = ({ match }) => {
   const dispatch = useDispatch();
   const treesList = useSelector((state) => state.treesReducer);
   const { trees } = treesList;
+  console.log("treesList", treesList);
 
   useEffect(() => {
     dispatch(listTrees(keyword));

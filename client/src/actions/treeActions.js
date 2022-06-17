@@ -10,7 +10,7 @@ export const listTrees =
       });
       const { data } = await axios.get(
         `/search?keyword=${keyword}`
-        // 'https://api.norcal-outdoors.com/review',
+        // `https://api.norcal-outdoors.com/search?keyword=${keyword}`,
       );
       dispatch({
         type: TREES_SUCCESS,
