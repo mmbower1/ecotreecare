@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
+import "./Search.scss";
 import { Row, Col } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 // actions
 import { listTrees } from "../../actions/treeActions";
 // components
+import Tree from "../../components/card/Card";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 const Search = ({ match }) => {
@@ -11,14 +13,13 @@ const Search = ({ match }) => {
   const dispatch = useDispatch();
   const treesList = useSelector((state) => state.treesReducer);
   const { trees } = treesList;
-  console.log("treesList", treesList);
 
   useEffect(() => {
     dispatch(listTrees(keyword));
   }, [dispatch, keyword]);
 
   return (
-    <div>
+    <div className="search-container">
       <Sidebar />
       <Row>
         {trees.map((tree) => (
@@ -29,7 +30,7 @@ const Search = ({ match }) => {
             // lg={4}
             // xl={3}
           >
-            {/* <Tree tree={tree} /> */}
+            <Tree tree={tree} />
           </Col>
         ))}
       </Row>

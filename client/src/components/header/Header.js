@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 //style
 import "./Header.scss";
 import logo from "../../img/tree-solid.svg";
@@ -15,7 +15,9 @@ import SearchBox from "../searchBox/SearchBox";
 const Header = () => {
   return (
     <div className="header">
-      <img src={logo} alt="ecotreecare-logo" className="logo" />
+      <Link to="/">
+        <img src={logo} alt="ecotreecare-logo" className="logo" />
+      </Link>
       {/* <form action="#" className="search">
         <input
           className="search-input"
