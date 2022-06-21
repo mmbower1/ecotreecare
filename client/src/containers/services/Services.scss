@@ -4,6 +4,11 @@
   display: flex;
   color: black;
 
+  @media only screen and (max-width: $bp-large) {
+    display: flex;
+    flex-direction: column;
+  }
+
   .sidebar {
     background-color: var(--color-grey-dark-1);
     display: flex;
@@ -13,9 +18,9 @@
     justify-content: space-between;
 
     @media only screen and (max-width: $bp-large) {
-      display: none;
+      display: flex;
       background-color: var(--color-grey-dark-1);
-      // flex: 0 0 18%;
+      flex: 0 0 18%;
       flex-direction: column;
       height: 11rem;
       justify-content: space-between;
@@ -23,14 +28,20 @@
   }
 
   .services-container {
-    display: flex;
+    // background: linear-gradient(0.25turn, #3fa654, #f8f6e1, #5bf63c);
+    // margin-bottom: 25rem;
+    font-size: 80px;
+    // display: flex;
     flex-direction: row;
+    // max-width: 1000px;
+    text-align: center;
 
     .row, .h-100 {
-      margin: 0 auto;
+      margin: 0 20px 0 20px;
 
       @media only screen and (max-width: $bp-large) {
-        margin-left: 0px;
+        margin-top: 30px;
+        // margin-left: 0px;
         width: 100%
       }
     }
