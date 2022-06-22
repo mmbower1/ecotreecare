@@ -1,10 +1,10 @@
 @import "../../scss/base/base";
 
 .sidebar {
-  // width: 30rem;
-  // @media only screen and (max-width: $bp-medium) {
-  //   width: -100rem;
-  // }
+  width: 40rem;
+  @media only screen and (max-width: $bp-large) {
+    width: 100%;
+  }
 
   &-content {
     margin-bottom: 5rem;
@@ -33,13 +33,12 @@
     position: relative;
     z-index: 2;
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-large) {
       // margin-left: 3rem;
-      margin-top: 0;
+      margin: 0 15px 0 0;
       display: flex;
       justify-content: space-evenly;
       height: 2rem;
-      width: .2rem;
     }
   }
 
@@ -57,10 +56,11 @@
     font-size: 1.4rem;
     list-style: none;
     margin-top: 3.5rem;
+    // margin-left: -2rem;
 
     @media only screen and (max-width: $bp-large) {
       display: flex;
-      margin: 20px;
+      // margin: 20px;
       font-size: 1.1rem;
       // position: fixed;
       z-index: 0;
@@ -91,7 +91,7 @@
         flex: 1;
       }
 
-      @media only screen and (max-width: $bp-small) {
+      @media only screen and (max-width: $bp-large) {
         flex-direction: column;
       }
     }
@@ -132,7 +132,7 @@
       display: flex;
       font-size: 2rem;
       margin-right: .4rem;
-      padding: 1.5rem 2rem;
+      padding: 1.5rem;
       position: relative;
       text-decoration: none;
       text-transform: uppercase;

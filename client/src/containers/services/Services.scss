@@ -30,17 +30,19 @@
   .services-container {
     // background: linear-gradient(0.25turn, #3fa654, #f8f6e1, #5bf63c);
     // margin-bottom: 25rem;
-    font-size: 80px;
+    // font-size: 80px;
     // display: flex;
-    flex-direction: row;
-    // max-width: 1000px;
+    // flex-direction: row;
+    max-width: 100%;
     text-align: center;
 
     .row, .h-100 {
       margin: 0 20px 0 20px;
+      height: 100%;
+            width: 100%;
 
       @media only screen and (max-width: $bp-large) {
-        margin-top: 30px;
+        margin: 30px 0 0 5px;
         // margin-left: 0px;
         width: 100%
       }
