@@ -20,24 +20,29 @@
     @media only screen and (max-width: $bp-large) {
       // display: none;
       #american-express, #discover, #mastercard, #visa {
-        height: 16px;
-        margin-right: 3px;
+        height: 15px;
+        display: flex;
       }
     }
   }
 
   .btc-eth {
+
     #btc, #eth {
       height: 45px;
     }
     @media only screen and (max-width: $bp-large) {
-      .btc-eth {
-        margin-right: 100px;
+      #btc {
+        margin-top: 10px;
       }
+      #eth {
+        margin-bottom: 10px;
+      }
+
       // display: none;
       #btc, #eth {
+        display: flex;
         height: 25px;
-        margin-right: 20px;
       }
     }
   }

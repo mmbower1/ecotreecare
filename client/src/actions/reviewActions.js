@@ -12,8 +12,8 @@ export const setReview = (name, text) => async (dispatch) => {
       },
     };
     const { data } = await axios.post(
-      "/review",
-      // 'https://api.norcal-outdoors.com/review',
+      // "/review",
+      "https://api.norcal-outdoors.com/review",
       { name, text },
       config
     );

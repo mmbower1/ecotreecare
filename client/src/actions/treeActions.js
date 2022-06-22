@@ -9,8 +9,8 @@ export const listTrees =
         type: TREES_REQUEST,
       });
       const { data } = await axios.get(
-        `/search?keyword=${keyword}`
-        // `https://api.norcal-outdoors.com/search?keyword=${keyword}`
+        // `/search?keyword=${keyword}`
+        `https://api.norcal-outdoors.com/search?keyword=${keyword}`
       );
       dispatch({
         type: TREES_SUCCESS,
