@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const colors = require("colors");
 const dotenv = require("dotenv");
 // data
+const reviews = require("./data/Reviews.js");
 const trees = require("./data/Trees.js");
 // load env vars
 dotenv.config({ path: "./config/config.env" });
@@ -23,8 +24,8 @@ const importData = async () => {
     await Review.deleteMany();
     await Tree.deleteMany();
 
-    await Review.insertMany();
     await Tree.insertMany(trees);
+    await Review.insertMany(reviews);
     console.log("Data imported...".green.inverse);
     process.exit();
   } catch (err) {

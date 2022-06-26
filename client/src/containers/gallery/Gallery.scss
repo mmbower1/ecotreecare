@@ -23,6 +23,8 @@
     .gallery-photo {
       background-size: cover;
       padding: 5px; 
+      // height: 100px; 
+      // width: 100px;
 
       @media only screen and (max-width: $bp-large) {
         height: 250px;

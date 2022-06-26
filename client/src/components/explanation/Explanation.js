@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+// actions
+import { getReviews } from "../../actions/reviewActions";
 // components
-import Reviews from "../reviews/Reviews";
+import Review from "../review/Review";
 // style
 import "./Explanation.scss";
-import logo from "../../img/tree-solid.svg";
+// import logo from "../../img/tree-solid.svg";
 
 const Explanation = () => {
+  const dispatch = useDispatch();
+  const reviewsList = useSelector((state) => state.getReviewReducer);
+  const { reviews } = reviewsList;
+  console.log("reviews ", reviewsList);
+
+  useEffect(() => {
+    dispatch(getReviews());
+  }, [dispatch]);
+
   return (
     <div className="explanation-container">
       <div className="explanation">
@@ -158,7 +170,9 @@ const Explanation = () => {
           finish it.
         </p>
       </div>
-      <Reviews />
+      {reviews.map((review) => (
+        <Review review={review} />
+      ))}
     </div>
   );
 };

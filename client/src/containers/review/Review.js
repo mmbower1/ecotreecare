@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 // actions
-import { setReview } from "../../actions/reviewActions";
+import { createReview } from "../../actions/reviewActions";
 // components
 import Sidebar from "../../components/sidebar/Sidebar";
 // style
@@ -12,9 +12,10 @@ import "sweetalert2/src/sweetalert2.scss";
 const Review = ({ history, location }) => {
   const [name, setName] = useState("");
   const [text, setText] = useState("");
+  const [rating, setRating] = useState(0);
 
   const dispatch = useDispatch();
-  const reviewList = useSelector((state) => state.reviewReducer);
+  const reviewList = useSelector((state) => state.postReviewReducer);
   const { reviews } = reviewList;
   const redirect = location.search ? location.search.split("=")[1] : "/";
   console.log("reviews: ", reviews);
@@ -37,10 +38,10 @@ const Review = ({ history, location }) => {
         width: "600px",
       }).then((result) => {
         if (result.isConfirmed) {
-          dispatch(setReview(name, text));
+          dispatch(createReview(name, text));
           Swal.fire({
             title: "Thanks",
-            title: "Your review has been sent!",
+            title: "Your review has been submitted!",
             icon: "success",
             height: "800px",
             width: "600px",
@@ -48,38 +49,7 @@ const Review = ({ history, location }) => {
         }
       });
     }
-    //   dispatch(setReview(name, text));
-    //   Swal.fire({
-    //     title: "Thanks",
-    //     title: "Your review has been sent!",
-    //     icon: "success",
-    //     height: "600px",
-    //     width: "600px",
-    //   });
-    //   setName("");
-    //   setText("");
-    // }
   };
-
-  // const onClick = (e) => {
-  //   const x = e.clientX;
-  //   const y = e.clientY;
-  //   const buttonLeft = e.target.offsetLeft;
-  //   const buttonTop = e.target.offsetTop;
-  //   const xInside = x - buttonLeft;
-  //   const yInside = y - buttonTop;
-
-  //   // adds element to DOM on every click
-  //   const circle = document.createElement('span');
-  //   circle.classList.add('circle');
-  //   circle.style.top = yInside + 'px';
-  //   circle.style.left = xInside + 'px';
-
-  //   // this.appendChild(circle);
-
-  //   // removes extra remaining elements from DOM
-  //   setTimeout(() => circle.remove(), 500);
-  // }
 
   useEffect(() => {
     if (reviews) {
@@ -103,6 +73,18 @@ const Review = ({ history, location }) => {
               onChange={(e) => setName(e.target.value)}
               value={name}
             />
+            <small></small>
+          </div>
+          <div className="form-control">
+            <label for="username">Rating</label>
+            {/* <input type="text" id="username" placeholder="Enter Username" /> */}
+            <input
+              name="comment"
+              form="usrform"
+              placeholder="Enter rating"
+              onChange={(e) => setRating(e.target.value)}
+              value={rating}
+            ></input>
             <small></small>
           </div>
           <div className="form-control">

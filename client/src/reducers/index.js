@@ -3,7 +3,7 @@ import { combineReducers } from "redux";
 // import { persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage';
 // reducers
-import { reviewReducer } from "./reviewReducers";
+import { getReviewReducer, postReviewReducer } from "./reviewReducers";
 import { treesReducer } from "./treeReducers";
 // import profile from './profile';
 
@@ -14,7 +14,8 @@ import { treesReducer } from "./treeReducers";
 // }
 
 const rootReducer = combineReducers({
-  reviewReducer,
+  getReviewReducer,
+  postReviewReducer,
   treesReducer,
   // profile
 });
