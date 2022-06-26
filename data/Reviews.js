@@ -3,8 +3,7 @@ const reviews = [
     name: "Tina Dolan",
     text: "Trees are all shined and cleaned up, no more dangerous hazards over the house and yard looks great. Five stars.",
     rating: "5",
-    image:
-      "https://i.pinimg.com/originals/87/e9/30/87e93098bcad947b972e47fae9be2379.jpg",
+    image: "",
     date: "03/21/22",
   },
   {

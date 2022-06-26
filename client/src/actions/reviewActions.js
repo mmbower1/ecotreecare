@@ -44,9 +44,9 @@ export const getReviews = () => async (dispatch) => {
   try {
     dispatch({ type: LIST_REVIEWS_REQUEST });
 
-    // const { data } = await axios.get(`/review`);
+    const { data } = await axios.get(`/review`);
     console.log("data ", data);
-    const { data } = await axios.get(`https://api.monarchtracker.com/review`);
+    // const { data } = await axios.get(`https://api.monarchtracker.com/review`);
 
     dispatch({
       type: LIST_REVIEWS_SUCCESS,

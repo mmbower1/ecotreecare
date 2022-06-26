@@ -65,7 +65,7 @@ const Review = ({ history, location }) => {
           <h1 className="review-title">Thank you so much for your service!</h1>
           <br />
           <div className="form-control">
-            <label for="name">Name</label>
+            <label for="name">Name:</label>
             <input
               type="text"
               id="username"
@@ -76,7 +76,7 @@ const Review = ({ history, location }) => {
             <small></small>
           </div>
           <div className="form-control">
-            <label for="username">Rating</label>
+            <label for="username">Rating:</label>
             {/* <input type="text" id="username" placeholder="Enter Username" /> */}
             <input
               name="comment"
@@ -88,7 +88,7 @@ const Review = ({ history, location }) => {
             <small></small>
           </div>
           <div className="form-control">
-            <label for="username">Review</label>
+            <label for="username">Review:</label>
             {/* <input type="text" id="username" placeholder="Enter Username" /> */}
             <textarea
               name="comment"
