@@ -13,6 +13,9 @@ const reviewSchema = mongoose.Schema(
     rating: {
       type: Number,
     },
+    image: {
+      type: String,
+    },
     date: {
       type: String,
     },

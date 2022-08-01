@@ -27,7 +27,7 @@ export const getReviewReducer = (state = { reviews: [] }, action) => {
     case LIST_REVIEWS_SUCCESS:
       return { loading: false, reviews: action.payload.reviews };
     case LIST_REVIEWS_FAIL:
-      return { loading: false, error: action.payload };
+      return { reviews: [], loading: false, error: action.payload };
     default:
       return state;
   }

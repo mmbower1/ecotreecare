@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // components
 import Explanation from "../explanation/Explanation";
 import Overview from "../overview/Overview";
+import SubscribeButton from "../subscribeButton/SubscribeButton";
 // style
 import "./Main.scss";
 // photos
@@ -14,9 +15,8 @@ const Main = () => {
   return (
     <div className="main">
       {/* <i className="fab fa-google"></i> */}
-      <h1>
-        <i className="fab fa-google"></i> - Subscribe to us!
-      </h1>
+      {/* <SubscribeButton /> */}
+      <i className="fab fa-google"></i> - Subscribe to us!
       <div className="gallery">
         <figure className="gallery-item">
           <img src={photo1} alt="photo-1" className="gallery-photo" />

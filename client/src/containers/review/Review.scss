@@ -38,6 +38,7 @@
       @media only screen and (max-width: $bp-large) {
         padding: 10px;
       }
+
       &-control {
         line-height: 60px;
         margin-bottom: 10px;
@@ -60,6 +61,9 @@
         font-size: 25px;
         padding: 10px;
         width: 100%;
+        @media only screen and (max-width: $bp-large) {
+          font-size: 17px;
+        }
       }
 
       &-control input:focus {
@@ -77,6 +81,7 @@
         width: 100%;
 
         @media only screen and (max-width: $bp-large) {
+          font-size: 17px;
           width: 100%;
         }
       }
