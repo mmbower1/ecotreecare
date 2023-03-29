@@ -45,8 +45,9 @@ export const getReviews = () => async (dispatch) => {
     dispatch({ type: LIST_REVIEWS_REQUEST });
 
     // const { data } = await axios.get(`/review`);
-    console.log("data ", data);
     const { data } = await axios.get(`https://api.ecotreecare.org/review`);
+    // const { data } = await axios.get(`/review`);
+    // console.log("data ", data);
 
     dispatch({
       type: LIST_REVIEWS_SUCCESS,

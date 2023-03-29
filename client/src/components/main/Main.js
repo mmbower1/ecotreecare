@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Explanation from "../explanation/Explanation";
 import Overview from "../overview/Overview";
 import SubscribeButton from "../subscribeButton/SubscribeButton";
+
 // style
 import "./Main.scss";
 // photos
