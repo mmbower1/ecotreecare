@@ -3,10 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 // actions
 import { getReviews } from "../../actions/reviewActions";
 // components
-import Review from "../review/Review";
+import Reviews from "../review/Review";
 // style
 import "./Explanation.scss";
 // import logo from "../../img/tree-solid.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
 
 const Explanation = () => {
   const dispatch = useDispatch();
@@ -156,6 +158,38 @@ const Explanation = () => {
             &nbsp;Worker training
           </li>
         </ul>
+        <div className="review-boxes">
+          <div class="review-box">
+            <div class="review-title">Excellent tree and yard work</div>
+            <div class="review-content">
+              <p>
+                "American Arbor exceeded my expectations. They're high quality
+                and very friendly. I highly recommend to anyone in the area."
+              </p>
+            </div>
+            <div class="review-author">- Lea Mentink</div>
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStarHalfStroke} color="gold" />
+          </div>
+          <div class="review-box">
+            <div class="review-title">5 star service</div>
+            <div class="review-content">
+              <p>
+                "The trees in my yard are now trimmed so I can the sunlight I've
+                been wanting for years.""
+              </p>
+            </div>
+            <div class="review-author">- Marlene Chapman</div>
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+            <FontAwesomeIcon icon={faStar} color="gold" />
+          </div>
+        </div>
         <p className="paragraph">
           <i
             className="fas fa-angle-double-right"
@@ -170,9 +204,6 @@ const Explanation = () => {
           finish it.
         </p>
       </div>
-      {reviews.map((review) => (
-        <Review key={review._id} review={review} />
-      ))}
     </div>
   );
 };

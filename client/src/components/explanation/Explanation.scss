@@ -1,6 +1,5 @@
 @import "../../scss/base/base";
 
-
 .explanation-container {
   // display: flex;
   padding: 2rem;
@@ -37,7 +36,6 @@
       @media only screen and (max-width: $bp-medium) {
         font-size: 3rem;
         text-align: center;
-        
       }
     }
 
@@ -46,7 +44,6 @@
         line-height: 3.2rem;
       }
     }
-    
 
     .list {
       border-bottom: var(--line);
@@ -62,8 +59,8 @@
         margin-bottom: 2rem;
       }
     }
-  
-    .paragraph { 
+
+    .paragraph {
       color: var(--color-grey-dark-1);
       font-size: 2.5rem;
       margin-left: 2rem;
@@ -77,11 +74,41 @@
     .paragraph:not(:last-of-type) {
       margin-bottom: 2rem;
     }
-  
+
     ul {
       color: var(--color-grey-dark-1);
       font-size: 2rem;
       margin-left: 4.5rem;
     }
   }
+}
+
+.review-boxes {
+  display: flex;
+}
+
+.review-box {
+  border: 1px solid gold;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.review-title {
+  color: gold;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.review-author {
+  font-size: 14px;
+  color: #666;
 }
