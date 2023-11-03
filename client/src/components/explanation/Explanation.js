@@ -168,6 +168,7 @@ const Explanation = () => {
               </p>
             </div>
             <div class="review-author">- Lea Mentink</div>
+            <br />
             <FontAwesomeIcon icon={faStar} color="gold" />
             <FontAwesomeIcon icon={faStar} color="gold" />
             <FontAwesomeIcon icon={faStar} color="gold" />
@@ -178,11 +179,12 @@ const Explanation = () => {
             <div class="review-title">5 star service</div>
             <div class="review-content">
               <p>
-                "The trees in my yard are now trimmed so I can the sunlight I've
-                been wanting for years.""
+                "The trees in my yard are now trimmed so I can receive the
+                sunlight I've been wanting for years.""
               </p>
             </div>
             <div class="review-author">- Marlene Chapman</div>
+            <br />
             <FontAwesomeIcon icon={faStar} color="gold" />
             <FontAwesomeIcon icon={faStar} color="gold" />
             <FontAwesomeIcon icon={faStar} color="gold" />

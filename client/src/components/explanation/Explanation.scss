@@ -85,6 +85,10 @@
 
 .review-boxes {
   display: flex;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 10px;
+  }
 }
 
 .review-box {
@@ -101,14 +105,28 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 10px;
+  }
 }
 
 .review-content {
   font-size: 16px;
   margin-bottom: 10px;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 10px;
+    line-height: 10px;
+  }
 }
 
 .review-author {
   font-size: 14px;
   color: #666;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 10px;
+    line-height: 10px;
+  }
 }
